@@ -12,6 +12,7 @@ class Student {
 interface Person {
   firstName: string;
   lastName: string;
+  sayName?:(string)=>number;
 }
 
 function greeter(person: Person) {
